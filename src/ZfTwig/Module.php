@@ -37,7 +37,7 @@ class Module implements AutoloaderProviderInterface {
 	 * @return array
 	 */
 	public function getServiceConfiguration(){
-		return include __DIR__ . '/config/service.config.php';
+		return include __DIR__ . '/../../config/service.config.php';
 	}
 	
 	/**
@@ -46,7 +46,7 @@ class Module implements AutoloaderProviderInterface {
 	 */
 	public function getConfig()
 	{
-		$config = include __DIR__ . '/config/module.config.php';
+		$config = include __DIR__ . '/../../config/module.config.php';
 		return $config;
 	}
 	
