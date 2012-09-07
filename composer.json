@@ -1,0 +1,31 @@
+{
+    "name": "doctrine/doctrine-module",
+    "description": "Zend Framework 2 Module that provides Twig rendering engine",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "twig",
+        "module",
+        "zf2"
+    ],
+    "homepage": "https://github.com/codebe/zf2-twig-module",
+    "authors": [
+        {
+            "name": "Mukhamad Ikhsan",
+            "email": "ikhsan.only@gmail.com",
+            "homepage": "http://github.com/codebe"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": ">=1.9.0",        
+        "zendframework/zendframework": "2.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "DoctrineModule": "src/",
+            "DoctrineModuleTest": "tests/"
+        }
+    }
+}
