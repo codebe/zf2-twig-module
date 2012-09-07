@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/doctrine-module",
+    "name": "ikhsan/zf2-twig-module",
     "description": "Zend Framework 2 Module that provides Twig rendering engine",
     "type": "library",
     "license": "MIT",
@@ -24,8 +24,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
-            "DoctrineModule": "src/",
-            "DoctrineModuleTest": "tests/"
+            "ZfTwig": "src/"
         }
     }
 }
